@@ -1,0 +1,25 @@
+/* Write your CSS here */
+.app-item-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.app-item-image {
+  height: 80px;
+  width: 80px;
+  border-radius: 10px;
+}
+
+.app-item-details-container {
+  display: flex;
+  background-color: #ffffff;
+}
+
+.app-item-name {
+  font-family: 'Bree serif';
+  font-size: 15px;
+  color: #1e293b;
+}
